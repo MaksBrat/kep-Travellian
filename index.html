@@ -50,6 +50,9 @@
                     <a href="#" class="hover-border">Login</a>
                     <a href="#" class="sign-up btn">Sign up</a>
                 </div>
+                <div class="burger-menu">
+                    <img src="img/other/hamburger.png" alt="burger menu">
+                </div>
             </nav>
             <div class="header__main">
                 <div class="header__text">
@@ -57,46 +60,46 @@
                     <p class="header__text_sub">The best travel for your jouney begins now</p>
                 </div>
                 <div class="header__booking">
-                    <div class="booking__block">
+                    <form action="" class="booking__form">  
+                        <div class="input__block">
+                            <div class="form__group">
+                                <div class="form__label">DESTINATION</div>
+                                <input type="text" class="form__input">
+                            </div>
+                            <div class="form__group" >
+                                <div class="form__label">
+                                    PERSON
+                                </div>
+                                <select class="form__input">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                  </select>
+                            </div>
+                            <div class="form__group">
+                                <div class="form__label">
+                                    CHECK IN
+                                </div>
+                                <input id="date-input" type="date" class="form__input" >
+                            </div>
+                            <div class="form__group">
+                                <div class="form__label">
+                                    CHECK OUT
+                                </div>
+                                <input type="date" class="form__input">
+                            </div>  
+                        </div>                                                      
                         <button type="submit" class="form__btn"> 
-                            <span>Book <br> Now</span>  
+                            <span>Book Now</span>  
                             <img src="icons/arrows/arrow-1.svg" alt="arrow">
-                        </button> 
-                    </div>
-                    <form action="" class="booking__form wrapper">                                        
-                        <div class="form__group">
-                            <div class="form__label">DESTINATION</div>
-                            <input type="text" class="form__input">
-                        </div>
-                        <div class="form__group" >
-                            <div class="form__label">
-                                PERSON
-                            </div>
-                            <select class="form__input">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                              </select>
-                        </div>
-                        <div class="form__group">
-                            <div class="form__label">
-                                CHECK IN
-                            </div>
-                            <input id="date-input" type="date" class="form__input" >
-                        </div>
-                        <div class="form__group">
-                            <div class="form__label">
-                                CHECK OUT
-                            </div>
-                            <input type="date" class="form__input">
-                        </div>                                
+                        </button>                               
                     </form>                                                                                      
                 </div>
             </div>   
@@ -107,7 +110,7 @@
             <div class="wrapper">
                 <div class="popular__block">
                     <div class="section__header">
-                        <div class="section__title">
+                        <div class="section__title section__text_sub_rigth">
                             <div class="section__text_main">Popular Destinations</div>
                             <div class="stripe"></div>
                             <div class="section__text_sub">Most popular destinations around the world, from historical places to natural wonders.</div>
@@ -348,7 +351,7 @@
             <div class="wrapper">
                 <div class="blog__block">
                     <div class="section__header">
-                        <div class="section__title">
+                        <div class="section__title section__text_sub_rigth">
                             <div class="section__text_main">Our Blog</div>
                             <div class="stripe"></div>
                             <div class="section__text_sub">An insight the incredible experience in the worlds.</div>
@@ -374,161 +377,10 @@
             </div>       
         </section>  
         <section>
-            <div class="trip-planners__slider">
-                <div class="trip-planners__slider__item trip-planners__header">
-                    <div class="section__header">
-                        <div class="section__title">
-                            <div class="section__text_main">Trip Planners</div>
-                            <div class="stripe"></div>
-                            <div class="section__text_sub">20 years from now you will be more disappointed by the things that you didn’t do. Stop regretting and start travelling, start throwing off the bowlines.</div>
-                        </div>
-                    </div>
-                    <div class="trip-plans">
-                        <a class="btn" href="#">
-                            <img class="square_black" src="icons/square_black.png" alt="square_black">
-                            View all trip plans
-                            <img class="square_gray" src="icons/square_gray.png" alt="square_black">
-                        </a>
-                    </div>
-                </div>
-                <div class="trip-planners__slider__item">
-                    <div class="image__cutter">
-                        <img src="img/trips/trip-1.png" alt="">
-                    </div>
-                    <div class="trip__info">
-                        <div class="trip__top">
-                            <div class="trip__type">Guided Tour</div>
-                            <div class="trip__price">€99/Day</div>
-                        </div>
-                        <div class="trip__title">Paris City Tour</div>
-                        <div class="trip__bottom">
-                            <div class="trip__rating">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>   
-                            </div>
-                            <div class="trip__duration">7 Days tour</div>
-                        </div>
-                    </div>                      
-                </div>
-                <div class="trip-planners__slider__item">
-                    <div class="image__cutter">
-                        <img src="img/trips/trip-2.png" alt="">
-                    </div>
-                    <div class="trip__info">
-                        <div class="trip__top">
-                            <div class="trip__type">Guided Tour</div>
-                            <div class="trip__price">€99/Day</div>
-                        </div>
-                        <div class="trip__title">Paris City Tour</div>
-                        <div class="trip__bottom">
-                            <div class="trip__rating">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>   
-                            </div>
-                            <div class="trip__duration">7 Days tour</div>
-                        </div>
-                    </div>                      
-                </div>
-                <div class="trip-planners__slider__item">
-                    <div class="image__cutter">
-                        <img src="img/trips/trip-2.png" alt="">
-                    </div>
-                    <div class="trip__info">
-                        <div class="trip__top">
-                            <div class="trip__type">Guided Tour</div>
-                            <div class="trip__price">€99/Day</div>
-                        </div>
-                        <div class="trip__title">Paris City Tour</div>
-                        <div class="trip__bottom">
-                            <div class="trip__rating">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>   
-                            </div>
-                            <div class="trip__duration">7 Days tour</div>
-                        </div>
-                    </div>                      
-                </div>  
-                <div class="trip-planners__slider__item">
-                    <div class="image__cutter">
-                        <img src="img/trips/trip-2.png" alt="">
-                    </div>
-                    <div class="trip__info">
-                        <div class="trip__top">
-                            <div class="trip__type">Guided Tour</div>
-                            <div class="trip__price">€99/Day</div>
-                        </div>
-                        <div class="trip__title">Paris City Tour</div>
-                        <div class="trip__bottom">
-                            <div class="trip__rating">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>   
-                            </div>
-                            <div class="trip__duration">7 Days tour</div>
-                        </div>
-                    </div>                      
-                </div>   
-                <div class="trip-planners__slider__item">
-                    <div class="image__cutter">
-                        <img src="img/trips/trip-3.png" alt="">
-                    </div>
-                    <div class="trip__info">
-                        <div class="trip__top">
-                            <div class="trip__type">Guided Tour</div>
-                            <div class="trip__price">€99/Day</div>
-                        </div>
-                        <div class="trip__title">Paris City Tour</div>
-                        <div class="trip__bottom">
-                            <div class="trip__rating">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>   
-                            </div>
-                            <div class="trip__duration">7 Days tour</div>
-                        </div>
-                    </div>                      
-                </div>  
-                <div class="trip-planners__slider__item">
-                    <div class="image__cutter">
-                        <img src="img/trips/trip-4.png" alt="">
-                    </div>
-                    <div class="trip__info">
-                        <div class="trip__top">
-                            <div class="trip__type">Guided Tour</div>
-                            <div class="trip__price">€99/Day</div>
-                        </div>
-                        <div class="trip__title">Paris City Tour</div>
-                        <div class="trip__bottom">
-                            <div class="trip__rating">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>   
-                            </div>
-                            <div class="trip__duration">7 Days tour</div>
-                        </div>
-                    </div>                      
-                </div>      
-        </section> 
-        <section>
             <div class="wrapper">
                 <div class="gallery__block">
                     <div class="section__header">
-                        <div class="section__title">
+                        <div class="section__title section__text_sub_rigth">
                             <div class="section__text_main">Destination Gallery</div>
                             <div class="stripe"></div>
                             <div class="section__text_sub">Our photo gallery on trip</div>
@@ -579,11 +431,11 @@
                 </div>
             </div>
         </section>  
-        <section>
+        <section class="travelers__section">
             <div class="wrapper">
                 <div class="travelers__block">
                     <div class="section__header">
-                        <div class="section__title">
+                        <div class="section__title section__text_sub_rigth">
                             <div class="section__text_main">Traveler’s Experiences</div>
                             <div class="stripe"></div>
                             <div class="section__text_sub">Here some awesome feedback from our travelers</div>
@@ -593,129 +445,117 @@
             </div>
             <div class="travelers__slider arrow_rigth_side">
                 <div class="travelers__slider__item">                         
-                    <div class="traveler__comment">
-                        <img class="traveler__avatar" src="img/avatars/avatar-1.png" alt="">
-                        <div class="comment__text">
-                            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
-                        </div>
-                        <div class="traveler__rating">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>   
-                        </div>
-                        <div class="treveler__name">
-                            John Doe
-                        </div>
-                        <div class="treveler__post">
-                            Accountant
-                        </div>
+                    <img class="traveler__avatar" src="img/avatars/avatar-1.png" alt="">
+                    <div class="comment__text">
+                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
+                    </div>
+                    <div class="traveler__rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>   
+                    </div>
+                    <div class="treveler__name">
+                        John Doe
+                    </div>
+                    <div class="treveler__post">
+                        Accountant
                     </div>
                 </div>
                 <div class="travelers__slider__item">                         
-                    <div class="traveler__comment">
-                        <img class="traveler__avatar" src="img/avatars/avatar-2.png" alt="">
-                        <div class="comment__text">
-                            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
-                        </div>
-                        <div class="traveler__rating">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>   
-                        </div>
-                        <div class="treveler__name">
-                            John Smith
-                        </div>
-                        <div class="treveler__post">
-                            Journalist, HWO News
-                        </div>
+                    <img class="traveler__avatar" src="img/avatars/avatar-2.png" alt="">
+                    <div class="comment__text">
+                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
+                    </div>
+                    <div class="traveler__rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>   
+                    </div>
+                    <div class="treveler__name">
+                        John Smith
+                    </div>
+                    <div class="treveler__post">
+                        Journalist, HWO News
                     </div>
                 </div>
                 <div class="travelers__slider__item">                         
-                    <div class="traveler__comment">
-                        <img class="traveler__avatar" src="img/avatars/avatar-3.png" alt="">
-                        <div class="comment__text">
-                            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
-                        </div>
-                        <div class="traveler__rating">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>   
-                        </div>
-                        <div class="treveler__name">
-                            Tamara Bellis
-                        </div>
-                        <div class="treveler__post">
-                            Managing Director, JTH
-                        </div>
+                    <img class="traveler__avatar" src="img/avatars/avatar-3.png" alt="">
+                    <div class="comment__text">
+                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
+                    </div>
+                    <div class="traveler__rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>   
+                    </div>
+                    <div class="treveler__name">
+                        Tamara Bellis
+                    </div>
+                    <div class="treveler__post">
+                        Managing Director, JTH
                     </div>
                 </div>
                 <div class="travelers__slider__item">                         
-                    <div class="traveler__comment">
-                        <img class="traveler__avatar" src="img/avatars/avatar-1.png" alt="">
-                        <div class="comment__text">
-                            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
-                        </div>
-                        <div class="traveler__rating">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>   
-                        </div>
-                        <div class="treveler__name">
-                            John Doe
-                        </div>
-                        <div class="treveler__post">
-                            Accountant
-                        </div>
+                    <img class="traveler__avatar" src="img/avatars/avatar-1.png" alt="">
+                    <div class="comment__text">
+                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
+                    </div>
+                    <div class="traveler__rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>   
+                    </div>
+                    <div class="treveler__name">
+                        John Doe
+                    </div>
+                    <div class="treveler__post">
+                        Accountant
                     </div>
                 </div>
                 <div class="travelers__slider__item">                         
-                    <div class="traveler__comment">
-                        <img class="traveler__avatar" src="img/avatars/avatar-2.png" alt="">
-                        <div class="comment__text">
-                            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
-                        </div>
-                        <div class="traveler__rating">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>   
-                        </div>
-                        <div class="treveler__name">
-                            John Smith
-                        </div>
-                        <div class="treveler__post">
-                            Journalist, HWO News
-                        </div>
+                    <img class="traveler__avatar" src="img/avatars/avatar-2.png" alt="">
+                    <div class="comment__text">
+                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
+                    </div>
+                    <div class="traveler__rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>   
+                    </div>
+                    <div class="treveler__name">
+                        John Smith
+                    </div>
+                    <div class="treveler__post">
+                        Journalist, HWO News
                     </div>
                 </div>
                 <div class="travelers__slider__item">                         
-                    <div class="traveler__comment">
-                        <img class="traveler__avatar" src="img/avatars/avatar-3.png" alt="">
-                        <div class="comment__text">
-                            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
-                        </div>
-                        <div class="traveler__rating">
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>   
-                        </div>
-                        <div class="treveler__name">
-                            Tamara Bellis
-                        </div>
-                        <div class="treveler__post">
-                            Managing Director, JTH
-                        </div>
+                    <img class="traveler__avatar" src="img/avatars/avatar-3.png" alt="">
+                    <div class="comment__text">
+                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
+                    </div>
+                    <div class="traveler__rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>   
+                    </div>
+                    <div class="treveler__name">
+                        Tamara Bellis
+                    </div>
+                    <div class="treveler__post">
+                        Managing Director, JTH
                     </div>
                 </div>
             </div>
@@ -736,7 +576,7 @@
                 </div>
                 <div class="footer__logo footer__column">
                     <img src="img/logo/logo.png" alt="">
-                    <span class="copyright footer__block__item">Copyright © Travellian 2020 All rights reserved</span>
+                    <span class="copyright">Copyright © Travellian 2020 All rights reserved</span>
                 </div>
                 <div class="footer__menu footer__column">
                     <span class="footer__block__title">Menu</span>
