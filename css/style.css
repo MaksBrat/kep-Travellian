@@ -714,7 +714,6 @@ nav ul li:last-child{
 /* Footer */
 footer{
     position: relative;
-    max-width: 1920px;
     margin: 0 auto;
     background-color: #172432;
     color: white;
